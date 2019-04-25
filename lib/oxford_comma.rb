@@ -18,6 +18,7 @@ def oxford_comma(array)
     array.each do |element|
       array.join(", ")
       array.split(" ")
+      array.insert()
     end
     
   #adds commas and final and for 4+ elements
