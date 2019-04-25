@@ -16,7 +16,7 @@ def oxford_comma(array)
   #kiwi, durian, starfruit
   when capacity == 3 
     array.each do |element|
-      array.join(",")
+      array.join(", ")
     end
     
   #adds commas and final and for 4+ elements
