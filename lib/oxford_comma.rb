@@ -1,5 +1,6 @@
 def oxford_comma(array)
   capacity = array.length 
+  lastElement = array[array.length-1]
   
   case 
   #returns string without formatting if 1 element
