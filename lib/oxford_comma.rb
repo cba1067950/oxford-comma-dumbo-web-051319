@@ -10,6 +10,9 @@ def oxford_comma(array)
     array.join(" and ")
   
   #adds commas and final and for 3 elements
+  #kiwi durian starfruit
+  #kiwi, durian, and starfruit 
+  #kiwi, durian, starfruit
   when capacity == 3 
     array.join(",")
     
