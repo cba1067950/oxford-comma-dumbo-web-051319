@@ -19,6 +19,6 @@ def oxford_comma(array)
     
   #adds commas and final and for 4+ elements
   when capacity > 3
-    array.join(",")
+    array.join(", ")
   end
 end
