@@ -16,8 +16,8 @@ def oxford_comma(array)
   #kiwi, durian, starfruit
   when capacity == 3 
     array.pop()
-    array.join(", ")
     array.push(" and ")
+    array.join(", ")
     array.push(lastElement)
     
   #adds commas and final and for 4+ elements
