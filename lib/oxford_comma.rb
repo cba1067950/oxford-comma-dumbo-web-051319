@@ -15,8 +15,8 @@ def oxford_comma(array)
   #kiwi, durian, and starfruit 
   #kiwi, durian, starfruit
   when capacity == 3 
-    array.join(", ")
-    array.split(", ")
+    string1 = array.join(", ")
+    array2 = string1.split(", ")
     array.insert(array.length-1, " and ")
     array.join()
     
