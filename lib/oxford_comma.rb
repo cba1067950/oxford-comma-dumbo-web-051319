@@ -14,7 +14,7 @@ def oxford_comma(array)
   #kiwi durian starfruit
   #kiwi, durian, and starfruit 
   #kiwi, durian, starfruit
-  when capacity == 3 
+  when capacity > 3 
     array.pop()
     array.push("and ")
     newString = array.join(", ")
